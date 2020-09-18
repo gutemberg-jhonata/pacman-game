@@ -49,12 +49,13 @@ class Pacman {
     let dir;
 
     if (e.keyCode >= 37 && e.keyCode <= 40) {
-      dir = DIRECTIONS[e.key]
+      dir = DIRECTIONS[e.key];
     } else {
       return;
     }
 
-    const nextMovePos = this.pos + dir.moviment;
+    const nextMovePos = this.pos + dir.movement;
+    
     if (objectExists(nextMovePos, OBJECT_TYPE.WALL)) {
       return;
     }
