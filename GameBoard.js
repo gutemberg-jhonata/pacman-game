@@ -28,7 +28,7 @@ class GameBoard {
       this.DOMGrid.appendChild(div);
       this.grid.push(div);
 
-      if (CLASS_LIST[square] ==- OBJECT_TYPE.DOT) {
+      if (CLASS_LIST[square] === OBJECT_TYPE.DOT) {
         this.dotCount++;
       }
     });
