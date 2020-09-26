@@ -12,7 +12,7 @@ O projeto é um clone do jogo Pacman seguindo o tutorial do canal [Traversy Medi
 
 * Movimente o Pacman com as setas do teclado.
 * Pegue todos os pontos da fase para vencer o jogo.
-* Pegue a pirula e deixe os fantasmas vulneráveis pos alguns segundos.
+* Pegue a pílula e deixe os fantasmas vulneráveis pos alguns segundos.
 
 ## Instalação
 
